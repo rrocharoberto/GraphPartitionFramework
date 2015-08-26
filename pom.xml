@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.edu.unifei.mestrado</groupId>
+	<artifactId>GraphPartitionFramework</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	
+	<properties>
+		<jung.version>2.0.1</jung.version>
+	</properties>
+	
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<!-- best lock down version of the plugin too -->
+					<configuration>
+						<source>1.6</source>
+						<target>1.6</target>
+						<encoding>ISO-8859-1</encoding>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	
+	<dependencies>
+	</dependencies>
+	<modules>
+		<module>Base_FM</module>
+		<module>Base_GreedyKWay</module>
+		<module>Base_KL</module>
+		<module>Base_MultiNivel</module>
+		<module>GraphCommons</module>
+		<module>GraphView</module>
+		<module>Memory_FM</module>
+		<module>Memory_GreedyKWay</module>
+		<module>Memory_KL</module>
+		<module>Memory_MultiNivel</module>
+		<module>Neo4j_FM</module>
+		<module>Neo4j_GreedyKWay</module>
+		<module>Neo4j_KL</module>
+		<module>Neo4j_MultiNivel</module>
+	</modules>
+</project>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<parent>
+		<artifactId>parent</artifactId>
+		<groupId>br.edu.unifei.mestrado</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.edu.unifei.mestrado</groupId>
+	<artifactId>Neo4j_KL</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>br.edu.unifei.mestrado</groupId>
+			<artifactId>GraphCommons</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>br.edu.unifei.mestrado</groupId>
+			<artifactId>Base_KL</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j</artifactId>
+			<version>1.4.M06</version>
+		</dependency>
+		<dependency>
+			<groupId>org.neo4j</groupId>
+			<artifactId>neo4j-utils</artifactId>
+			<version>1.2-1.2</version>
+		</dependency>
+	</dependencies>
+</project>
+
