@@ -16,3 +16,6 @@ In order to compile the project, please use the following Maven command on the r
 
 mvn clean install -Dmaven.test.skip=true
 
+The projects can be imported in Eclipse, so that, it's necessary to have Maven and its repository configured properly in the machine.
+Inside the Eclipse, you must create a classpath variable called M2_REPO, pointing to local Maven repository.
+
